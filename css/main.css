@@ -1594,6 +1594,15 @@ header .logo a {
 	line-height: 1;
 }
 
+#facts-content{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.fact-item{
+	flex: 1 1 auto;
+}
+
 .about-content h3 {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.8rem;
@@ -1634,6 +1643,7 @@ header .logo a {
 }
 #life{
 	background-color: #fff;
+	padding-bottom: 6rem;
 }
 #life i{
 	font-size: 4.8rem;
@@ -1720,7 +1730,7 @@ header .logo a {
 }
 
 #resume .resume-timeline {
-	max-width: 980px;
+	max-width: 1140px;
 }
 #resume .timeline-wrap {
 	position: relative;
@@ -1734,7 +1744,7 @@ header .logo a {
 	height: 100%;
 	background: rgba(0, 0, 0, 0.1);
 	position: absolute;
-	left: 35%;
+	left: 30%;
 	top: 0;
 }
 #resume .timeline-block {
@@ -1750,7 +1760,7 @@ header .logo a {
 	text-align: center;
 	color: #FFFFFF;
 	position: absolute;
-	left: 35%;
+	left: 30%;
 	top: .9rem;
 	margin-left: -2.4rem;
 }
@@ -1762,7 +1772,7 @@ header .logo a {
 
 #resume .timeline-header {
 	float: left;
-	width: 35%;
+	width: 30%;
 	padding-right: 90px;
 	text-align: right;
 }
@@ -1775,7 +1785,7 @@ header .logo a {
 	color: #888888;
 }
 #resume .timeline-content {
-	margin-left: 35%;
+	margin-left: 30%;
 	padding-left: 60px;
 }
 #resume .timeline-content h4 {
@@ -2032,7 +2042,7 @@ header .logo a {
 	display: block;
 	text-align: center;
 	float: left;
-	width: 50%;
+	width: 100%;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
