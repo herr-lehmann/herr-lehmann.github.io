@@ -109,7 +109,7 @@
 
 		containerProjects.masonry( {		  
 		  	itemSelector: '.folio-item',
-		  	resize: true 
+		  	resize: true
 		});
 
 	});
@@ -118,20 +118,24 @@
 	/*----------------------------------------------------*/
 	/*	Modal Popup
 	------------------------------------------------------*/
-   $('.item-wrap a').magnificPopup({
-
-      type:'inline',
-      fixedContentPos: false,
-      removalDelay: 300,
-      showCloseBtn: false,
-      mainClass: 'mfp-fade'
-
-   });
-
    $(document).on('click', '.popup-modal-dismiss', function (e) {
    	e.preventDefault();
    	$.magnificPopup.close();
    });
+
+   $('.item-wrap a').click(function (e){
+	e.preventDefault();
+	var target = $(this).attr('href');
+	$(target).toggleClass('collapsed');
+	containerProjects.masonry('layout');
+	$(this).parents('.folio-item').toggleClass('active');
+   });
+
+   $(document).on('click', '.folio-item-details', function (e){
+
+	$(this).toggleClass('collapsed');
+	containerProjects.masonry('layout');
+   })
 
 	
 	/*-----------------------------------------------------*/
@@ -142,7 +146,6 @@
 
    // toggle button
    toggleButton.on('click', function(e) {
-
 		e.preventDefault();
 		toggleButton.toggleClass('is-clicked');
 		nav.slideToggle();

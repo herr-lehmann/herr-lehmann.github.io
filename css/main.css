@@ -1894,7 +1894,12 @@ header .logo a {
 #portfolio .folio-item {
 	padding: 0;
 	position: relative;
-	overflow: hidden;
+}
+
+#portfolio .folio-item.active{
+	border: 1px solid black;
+	z-index: 1;
+	
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
@@ -1903,6 +1908,42 @@ header .logo a {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+}
+
+#portfolio .folio-item .item-wrap{
+	position: relative;
+	overflow: hidden;
+}
+
+#portfolio .folio-item .folio-item-details{
+	transition: height 0.4s ease-in-out;
+	cursor: pointer;
+	height: auto;
+	padding: 20px;
+}
+
+#portfolio .folio-item .folio-item-details .categories{
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.1rem;
+	line-height: 1.8rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	display: block;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+#portfolio .folio-item .folio-item-details.collapsed{
+	height: 0;
+	padding: 0;
+	border: 0;
+   	overflow: hidden;
+	transition: height 0.4s ease-in-out;
+
+}
+.details-close{
+	text-align: center;
+	width: 100%;
 }
 
 #portfolio .overlay {
@@ -1955,6 +1996,28 @@ header .logo a {
 #portfolio .folio-item:hover .overlay {
 	background: rgba(0, 0, 0, 0.8);
 }
+
+#portfolio .folio-item-cell:after {
+	content: "\f078";
+	font-family: "Font Awesome 6 Free";
+	font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+	font-weight: 900;
+	display: table;
+	text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+	font-size: 2em;
+	color: #FF0077;
+	transition: transform 0.5s ease 0s;
+}
+
+#portfolio .folio-item.active .folio-item-cell:after{
+	transform: rotate(-180deg);
+}
+
 #portfolio .folio-item:hover .folio-item-cell {
 	left: 0;
 }
