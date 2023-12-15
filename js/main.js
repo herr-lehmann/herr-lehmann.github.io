@@ -118,24 +118,21 @@
 	/*----------------------------------------------------*/
 	/*	Modal Popup
 	------------------------------------------------------*/
-   $(document).on('click', '.popup-modal-dismiss', function (e) {
-   	e.preventDefault();
-   	$.magnificPopup.close();
-   });
-
    $('.item-wrap a').click(function (e){
 	e.preventDefault();
 	var target = $(this).attr('href');
-	$(target).toggleClass('collapsed');
-	containerProjects.masonry('layout');
-	$(this).parents('.folio-item').toggleClass('active');
+	closePorfolioItem($(target));
    });
 
    $(document).on('click', '.folio-item-details', function (e){
+	closePorfolioItem($(this));
+   });
 
-	$(this).toggleClass('collapsed');
+   function closePorfolioItem(portfolioItem){
+	portfolioItem.toggleClass('collapsed');
 	containerProjects.masonry('layout');
-   })
+	$(portfolioItem).parents('.folio-item').toggleClass('active');
+   }
 
 	
 	/*-----------------------------------------------------*/
