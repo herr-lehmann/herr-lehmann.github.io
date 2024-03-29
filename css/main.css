@@ -1380,6 +1380,7 @@ header .logo a {
 	letter-spacing: .2rem;
 	color: #FFFFFF;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	margin-top: 2rem;
 }
 .intro-content .intro-position span {
 	display: inline-block;
@@ -2533,6 +2534,11 @@ footer .footer-social li {
 }
 footer .footer-social li a {
 	color: #FFFFFF;
+}
+
+#copyright{
+	text-align: center;
+	font-size: 12px;
 }
 #copyright ul {
 	display: inline;
