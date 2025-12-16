@@ -1,770 +1,1186 @@
-<!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!doctype html>
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->
+    <!--<![endif]-->
 
-<head>
-
-	<!--- basic page needs
+    <head>
+        <!--- basic page needs
    ================================================== -->
-	<meta charset="utf-8">
-	<title>Henning Kuch</title>
-	<meta name="description" content="Business Infos zu Henning Kuch"/>
-	<meta name="author" content="Henning Kuch"/>
-	<meta name="google-site-verification" content="wgpX8--rplBjl87Z-jIYLOJY3iLJ2lhjanFrXKMKqDU" />
+        <meta charset="utf-8" />
+        <title>Henning Kuch</title>
+        <meta name="description" content="Business Infos zu Henning Kuch" />
+        <meta name="author" content="Henning Kuch" />
+        <meta
+            name="google-site-verification"
+            content="wgpX8--rplBjl87Z-jIYLOJY3iLJ2lhjanFrXKMKqDU"
+        />
 
-	<!-- mobile specific metas
+        <!-- mobile specific metas
    ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
 
-	<!-- CSS
+        <!-- CSS
    ================================================== -->
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/vendor.css">
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/vendor.css" />
 
-	<!-- script
+        <!-- script
    ================================================== -->
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
+        <script src="js/modernizr.js"></script>
+        <script src="js/pace.min.js"></script>
 
-	<!-- favicons
+        <!-- favicons
 	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.png">
+        <link rel="icon" type="image/png" href="favicon.png" />
 
-	<!-- favicons
+        <!-- favicons
 	================================================== -->
-	<meta property="og:title" content="Henning Kuch - Lebenslauf & Business Infos">
-	<meta property="og:description" content="Aktueller Lebenslauf mit Projektbeispielen und Kontaktinformationen">
-	<meta property="og:image" content="https://henning-kuch.info/images/profile-pic.png">
-	<meta property="og:url" content="https://henning-kuch.info">
-</head>
+        <meta
+            property="og:title"
+            content="Henning Kuch - Lebenslauf & Business Infos"
+        />
+        <meta
+            property="og:description"
+            content="Aktueller Lebenslauf mit Projektbeispielen und Kontaktinformationen"
+        />
+        <meta
+            property="og:image"
+            content="https://henning-kuch.info/images/profile-pic.png"
+        />
+        <meta property="og:url" content="https://henning-kuch.info" />
+    </head>
 
-<body id="top">
-
-	<!-- header 
+    <body id="top">
+        <!-- header
    ================================================== -->
-	<header>
-		<div class="row">
+        <header>
+            <div class="row">
+                <div class="top-bar">
+                    <a class="menu-toggle" href="#"><span>Menu</span></a>
 
-			<div class="top-bar">
-				<a class="menu-toggle" href="#"><span>Menu</span></a>
+                    <div class="logo">
+                        <a href="index.html">Henning Kuch</a>
+                    </div>
 
-				<div class="logo">
-					<a href="index.html">Henning Kuch</a>
-				</div>
+                    <nav id="main-nav-wrap">
+                        <ul class="main-navigation">
+                            <li class="current">
+                                <a class="smoothscroll" href="#intro" title=""
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a class="smoothscroll" href="#about" title=""
+                                    >Intro</a
+                                >
+                            </li>
+                            <li>
+                                <a class="smoothscroll" href="#resume" title=""
+                                    >Lebenslauf</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="smoothscroll"
+                                    href="#portfolio"
+                                    title=""
+                                    >Portfolio</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="smoothscroll"
+                                    href="#services"
+                                    title=""
+                                    >Zusammenarbeit</a
+                                >
+                            </li>
+                            <li>
+                                <a class="smoothscroll" href="#contact" title=""
+                                    >Kontakt</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- /top-bar -->
+            </div>
+            <!-- /row -->
+        </header>
+        <!-- /header -->
 
-				<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
-						<li><a class="smoothscroll" href="#about" title="">Intro</a></li>
-						<li><a class="smoothscroll" href="#resume" title="">Lebenslauf</a></li>
-						<li><a class="smoothscroll" href="#portfolio" title="">Portfolio</a></li>
-						<li><a class="smoothscroll" href="#services" title="">Zusammenarbeit</a></li>
-						<li><a class="smoothscroll" href="#contact" title="">Kontakt</a></li>
-					</ul>
-				</nav>
-			</div> <!-- /top-bar -->
-
-		</div> <!-- /row -->
-	</header> <!-- /header -->
-
-	<!-- intro section
+        <!-- intro section
    ================================================== -->
-	<section id="intro">
+        <section id="intro">
+            <div class="intro-overlay"></div>
 
-		<div class="intro-overlay"></div>
+            <div class="intro-content">
+                <div class="row">
+                    <div class="col-twelve">
+                        <h5>Tech@Heart</h5>
+                        <h1>Henning Kuch</h1>
 
-		<div class="intro-content">
-			<div class="row">
+                        <p class="intro-position">
+                            <span>Digital Consultant</span>
+                            <span>Product Owner</span>
+                        </p>
 
-				<div class="col-twelve">
+                        <a
+                            class="button stroke smoothscroll"
+                            href="#about"
+                            title=""
+                            >Über mich</a
+                        >
+                    </div>
+                </div>
+            </div>
+            <!-- /intro-content -->
 
-					<h5>Tech@Heart</h5>
-					<h1>Henning Kuch</h1>
+            <ul class="intro-social">
+                <li>
+                    <a href="https://nerdculture.de/@henning"
+                        ><i class="fa-brands fa-mastodon"></i
+                    ></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/henning-kuch/"
+                        ><i class="fa fa-linkedin"></i
+                    ></a>
+                </li>
+                <li>
+                    <a href="https://github.com/herr-lehmann"
+                        ><i class="fa fa-github"></i
+                    ></a>
+                </li>
+            </ul>
+            <!-- /intro-social -->
+        </section>
+        <!-- /intro -->
 
-					<p class="intro-position">
-						<span>Digital Consultant</span>
-						<span>Product Owner</span>
-					</p>
-
-					<a class="button stroke smoothscroll" href="#about" title="">Über mich</a>
-
-				</div>
-
-			</div>
-		</div> <!-- /intro-content -->
-
-		<ul class="intro-social">
-			<li><a href="https://nerdculture.de/@henning"><i class="fa-brands fa-mastodon"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/henning-kuch/"><i class="fa fa-linkedin"></i></a></li>
-			<li><a href="https://github.com/herr-lehmann"><i class="fa fa-github"></i></a></li>
-		</ul> <!-- /intro-social -->
-
-	</section> <!-- /intro -->
-
-
-	<!-- about section
+        <!-- about section
    ================================================== -->
-	<section id="about">
-		<div class="row section-intro">
-			<div class="col-twelve">
+        <section id="about">
+            <div class="row section-intro">
+                <div class="col-twelve">
+                    <h5>Intro</h5>
+                    <h1>Digitalisierung ist mein Antrieb!</h1>
 
-				<h5>Intro</h5>
-				<h1>Digitalisierung ist mein Antrieb!</h1>
+                    <div class="intro-info">
+                        <img
+                            src="images/profile-pic.png"
+                            alt="Profile Picture"
+                        />
 
-				<div class="intro-info">
+                        <p class="lead">
+                            Ich liebe das Spannungsfeld aus Business,
+                            Technologie, Strategie und Operationalisierung. Die
+                            Vermittlung zwischen diesen Disziplinen ist meine
+                            Stärke, aber auch immer wieder tägliche
+                            Herausforderung.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /section-intro -->
+        </section>
 
-					<img src="images/profile-pic.png" alt="Profile Picture">
+        <section id="facts" class="">
+            <div id="facts-content" class="row about-content">
+                <div class="fact-item tab-1-2">
+                    <h5>Name</h5>
+                    <span>Henning Kuch</span>
+                </div>
+                <div class="fact-item tab-1-2">
+                    <h5>Standort</h5>
+                    <span>Stuttgart</span>
+                </div>
+                <div class="fact-item tab-1-2">
+                    <h5>Erfahrung</h5>
+                    <span>10+ Jahre</span>
+                </div>
+                <div class="fact-item tab-1-2">
+                    <h5>Abschluss</h5>
+                    <span>Dipl.-Ing & Master of Science</span>
+                </div>
+                <div class="fact-item tab-1-2">
+                    <h5>Bisherige Jobs</h5>
+                    <span>Gründer, Berater, Angestellter</span>
+                </div>
+            </div>
+        </section>
 
-					<p class="lead">
-						Ich liebe das Spannungsfeld aus Business, Technologie, Strategie und Operationalisierung. Die Vermittlung zwischen diesen Disziplinen ist meine Stärke, aber auch immer wieder tägliche Herausforderung.
-					</p>
-				</div>
-			</div>
-		</div> <!-- /section-intro -->
-	</section>
+        <section id="about">
+            <div class="row about-content">
+                <div class="col-six tab-full">
+                    <h3>Profil</h3>
+                    <p>
+                        Fundiertes technisches Verständnis mit solidem Business
+                        Hintergrund. Agiles Mindset gepaart mit operativer
+                        Erfahrung als Product Owner, Business Analyst und Coach.
+                        Analytische Fähigkeiten im Zusammenspiel mit
+                        pragma&shy;tischer Umsetzungsphilosophie.
+                    </p>
 
-	<section id="facts" class="">
-		<div id="facts-content" class="row about-content">
-			<div class="fact-item tab-1-2">
-				<h5>Name</h5>
-				<span>Henning Kuch</span>
-			</div>
-			<div class="fact-item tab-1-2">
-				<h5>Standort</h5>
-				<span>Stuttgart</span>
-			</div>
-			<div class="fact-item tab-1-2">
-				<h5>Erfahrung</h5>
-				<span>10+ Jahre</span>
-			</div>
-			<div class="fact-item tab-1-2">
-				<h5>Abschluss</h5>
-				<span>Dipl.-Ing & Master of Science</span>
-			</div>
-			<div class="fact-item tab-1-2">
-				<h5>Bisherige Jobs</h5>
-				<span>Gründer, Berater, Angestellter</span>
-			</div>
-		</div>
-	</section>
+                    <h5>Zertifikate</h5>
+                    <ul class="disc">
+                        <li>
+                            <a href=""
+                                >PSPO I - Professional SCRUM Product Owner</a
+                            >
+                            nach SCRUM.org
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.coursera.org/account/accomplishments/verify/PVK2LNU89F6R"
+                                >Understanding Einstein: The Special Theory of
+                                Relativity</a
+                            >
+                            bei Stanford University
+                        </li>
+                    </ul>
+                </div>
 
-	<section id="about">
-		<div class="row about-content">
-			<div class="col-six tab-full">
+                <div class="col-six tab-full">
+                    <h3>Fähigkeiten</h3>
+                    <p>
+                        Mit meiner technischen Ausbildung, der Startup Gründung
+                        und der Projekterfahrung als Consultant sowie meiner
+                        aktuellen Tätigkeit in einem Konzern verfüge ich über
+                        ein breites Know-How. Ich verstehe mich als Generalist
+                        mit der Fähigkeit, mich schnell in Themen einzuarbeiten.
+                    </p>
 
-				<h3>Profil</h3>
-				<p>
-					Fundiertes technisches Verständnis mit solidem Business Hintergrund. Agiles Mindset gepaart mit operativer Erfahrung als Product Owner, Business Analyst und Coach. Analytische Fähigkeiten im Zusammenspiel mit pragma&shy;tischer Umsetzungsphilosophie.
-				</p>
+                    <ul class="skill-bars">
+                        <li>
+                            <div class="progress percent60">
+                                <span>60%</span>
+                            </div>
+                            <strong>Web</strong>
+                        </li>
+                        <li>
+                            <div class="progress percent30">
+                                <span>30%</span>
+                            </div>
+                            <strong>Java</strong>
+                        </li>
+                        <li>
+                            <div class="progress percent80">
+                                <span>80%</span>
+                            </div>
+                            <strong>Agile Methoden</strong>
+                        </li>
+                        <li>
+                            <div class="progress percent80">
+                                <span>80%</span>
+                            </div>
+                            <strong>Projektmanagement</strong>
+                        </li>
+                        <li>
+                            <div class="progress down percent70">
+                                <span>70%</span>
+                            </div>
+                            <strong>Digitale Geschäftsmodelle</strong>
+                        </li>
+                    </ul>
+                    <!-- /skill-bars -->
+                </div>
+            </div>
+        </section>
+        <!-- /process-->
 
-				<h5>Zertifikate</h5>
-				<ul class="disc">
-					<li><a href="">PSPO I - Professional SCRUM Product Owner</a> nach SCRUM.org</li>
-					<li><a href="https://www.coursera.org/account/accomplishments/verify/PVK2LNU89F6R">Understanding
-							Einstein: The Special Theory of Relativity</a> bei Stanford University</li>
-				</ul>
-			</div>
-
-			<div class="col-six tab-full">
-
-				<h3>Fähigkeiten</h3>
-				<p>
-					Mit meiner technischen Ausbildung, der Startup Gründung und der Projekterfahrung als Consultant sowie meiner aktuellen Tätigkeit in einem Konzern verfüge ich über ein breites Know-How. Ich verstehe mich als Generalist mit der Fähigkeit, mich schnell in Themen einzuarbeiten.
-				</p>
-
-				<ul class="skill-bars">
-					<li>
-						<div class="progress percent60"><span>60%</span></div>
-						<strong>Web</strong>
-					</li>
-					<li>
-						<div class="progress percent30"><span>30%</span></div>
-						<strong>Java</strong>
-					</li>
-					<li>
-						<div class="progress percent80"><span>80%</span></div>
-						<strong>Agile Methoden</strong>
-					</li>
-					<li>
-						<div class="progress percent80"><span>80%</span></div>
-						<strong>Projektmanagement</strong>
-					</li>
-					<li>
-						<div class="progress down percent70"><span>70%</span></div>
-						<strong>Digitale Geschäftsmodelle</strong>
-					</li>
-				</ul> <!-- /skill-bars -->
-
-			</div>
-
-		</div>
-	</section> <!-- /process-->
-
-	<section id="life">
-		<div class="row">
-			<div class="col-twelve">
-				<h2>Abseits vom Job</h2>
-				<div class="block-1-6 block-tab-1-2 block-mob-1-2">
-					<div class="bgrid">
-						<i class="fa-solid fa-children"></i>
-						<h5 class="life-title">Familie</h5>
-					</div>
-					<div class="bgrid">
-						<i class="fa-solid fa-laptop-code"></i>
-						<h5 class="life-title">Hobby Dev</h5>
-					</div>
-					<div class="bgrid">
-						<i class="fa-solid fa-utensils"></i>
-						<h5 class="life-title">Essen</h5>
-					</div>
-					<div class="bgrid">
-						<i class="fa-brands fa-rebel"></i>
-						<h5 class="life-title">Sci-Fi</h5>
-					</div>
-					<div class="bgrid">
-						<i class="fa-solid fa-volleyball"></i>
-						<h5 class="life-title">Volleyball</h5>
-					</div>
-					<div class="bgrid">
-						<i class="fa-solid fa-tree"></i>
-						<h5 class="life-title">Natur</h5>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- resume Section
+        <section id="life">
+            <div class="row">
+                <div class="col-twelve">
+                    <h2>Abseits vom Job</h2>
+                    <div class="block-1-6 block-tab-1-2 block-mob-1-2">
+                        <div class="bgrid">
+                            <i class="fa-solid fa-children"></i>
+                            <h5 class="life-title">Familie</h5>
+                        </div>
+                        <div class="bgrid">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h5 class="life-title">Hobby Dev</h5>
+                        </div>
+                        <div class="bgrid">
+                            <i class="fa-solid fa-utensils"></i>
+                            <h5 class="life-title">Essen</h5>
+                        </div>
+                        <div class="bgrid">
+                            <i class="fa-brands fa-rebel"></i>
+                            <h5 class="life-title">Sci-Fi</h5>
+                        </div>
+                        <div class="bgrid">
+                            <i class="fa-solid fa-volleyball"></i>
+                            <h5 class="life-title">Volleyball</h5>
+                        </div>
+                        <div class="bgrid">
+                            <i class="fa-solid fa-tree"></i>
+                            <h5 class="life-title">Natur</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- resume Section
    ================================================== -->
-	<section id="resume" class="grey-section">
+        <section id="resume" class="grey-section">
+            <div class="row section-intro">
+                <div class="col-twelve">
+                    <h5>Lebenslauf</h5>
+                    <h1>Einige meiner Stationen.</h1>
 
-		<div class="row section-intro">
-			<div class="col-twelve">
+                    <p class="lead">
+                        Vom Studenten, Gründer, Berater bis zum angestellten
+                        Product Owner
+                    </p>
+                </div>
+            </div>
+            <!-- /section-intro-->
 
-				<h5>Lebenslauf</h5>
-				<h1>Einige meiner Stationen.</h1>
+            <div class="row resume-timeline">
+                <div class="col-twelve resume-header">
+                    <h2>Arbeitserfahrung</h2>
+                </div>
+                <!-- /resume-header -->
 
-				<p class="lead">Vom Studenten, Gründer, Berater bis zum angestellten Product Owner</p>
+                <div class="col-twelve">
+                    <div class="timeline-wrap">
+                        <div class="timeline-block">
+                            <div class="timeline-ico">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
 
-			</div>
-		</div> <!-- /section-intro-->
+                            <div class="timeline-header">
+                                <h3>Product Owner & Programm Management</h3>
+                                <p>Februar 2023 - heute</p>
+                            </div>
 
-		<div class="row resume-timeline">
+                            <div class="timeline-content">
+                                <h4>ANDREAS STIHL AG & Co. KG</h4>
+                                <p>
+                                    Mit meinem Wechsel zu STIHL ergriff ich die
+                                    Möglichkeit, eine digitale Transformation
+                                    direkt zu erleben und mitgestalten zu
+                                    können. Zunächst übernahm ich als Product
+                                    Owner ein Team des STIHL connected
+                                    Flottenmanagements und integrierte einen
+                                    autonomen Rasenmähroboter für B2B Kunden.
+                                    Währenddessen unterstützte ich bereits das
+                                    Programm des skalierten agilen
+                                    Entwicklungsprozesses und wechselte
+                                    schließlich vollständig in das
+                                    Programmmanagement als Business Analyst.
+                                    Tätigkeiten sind einerseits die frühphasige
+                                    Anforderungsdefinition zum Aufbau der
+                                    Entwicklungsroadmap in Zusammenarbeit mit
+                                    dem Produktmanagement, andererseits die
+                                    kontinuierliche Weiterentwicklung des
+                                    Prozesses.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /timeline-block -->
 
-			<div class="col-twelve resume-header">
+                        <div class="timeline-block">
+                            <div class="timeline-ico">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
 
-				<h2>Arbeitserfahrung</h2>
+                            <div class="timeline-header">
+                                <h3>Digital Consultant</h3>
+                                <p>November 2017 - Januar 2023</p>
+                            </div>
 
-			</div> <!-- /resume-header -->
+                            <div class="timeline-content">
+                                <h4>diconium digital solutions gmbh</h4>
+                                <p>
+                                    Als Digital Consultant nahm ich in Projekten
+                                    immer die Rolle ein, die benötigt wurde:
+                                    Product Owner, Agile Coach, Business Analyst
+                                    uvm. - immer als Bindeglied zwischen
+                                    Business & Technik und mit dem klaren
+                                    Auftrag, den Kunden erfolgreich zu machen.
+                                    <br />
+                                    Intern arbeitete ich gemeinsam mit dem
+                                    Account Management an der Weiterentwicklung
+                                    und dem Ausbau unserer Kunden. Dabei nutzte
+                                    ich die Erkenntnisse aus den
+                                    Kundenprojekten, sodass zielgerichtete
+                                    Angebote erstellt werden konnten. Auch bei
+                                    der Neukundenakquise übernahm ich
+                                    Verantwortung bei der Erstellung von
+                                    Ausschreibungsunterlagen oder
+                                    Neukunden-Pitches. Hier war ich für die
+                                    Strukturierung sowie den
+                                    Argumentationsaufbau der Unterlagen
+                                    zuständig.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /timeline-block -->
 
-			<div class="col-twelve">
+                        <div class="timeline-block">
+                            <div class="timeline-ico">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
 
-				<div class="timeline-wrap">
-					<div class="timeline-block">
+                            <div class="timeline-header">
+                                <h3>Co-Founder und Geschäftsführer Sales</h3>
+                                <p>Januar 2013 - August 2017</p>
+                            </div>
 
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
+                            <div class="timeline-content">
+                                <h4>MONKEY WORKS GmbH</h4>
+                                <p>
+                                    Gemeinsam mit zwei Partnern gründete ich die
+                                    <a
+                                        href="https://www.crunchbase.com/organization/monkey-works-gmbh"
+                                        >MONKEY WORKS</a
+                                    >, die auf einer Promotionsarbeit an der TU
+                                    Dresden basierte. Mit unserem
+                                    Software-Produkt ermöglichten wir die
+                                    Software-Entwicklung, den Vertrieb sowie die
+                                    Distribution von Apps für die mobile
+                                    Steuerung und Wartung industrieller
+                                    Maschinen und Anlagen.
+                                    <br />
+                                    Als Geschäftsführer Sales war ich für die
+                                    technische Beratung und den Vertrieb
+                                    verantwortlich. MONKEY WORKS wurde mit
+                                    Risikokapital gegründet und 2018 mit
+                                    15&nbsp;Mitarbeitern von einem chinesischen
+                                    Investor übernommen.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /timeline-block -->
+                        <div class="timeline-block">
+                            <div class="timeline-ico">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
 
-						<div class="timeline-header">
-							<h3>Product Owner & Programm Management</h3>
-							<p>Februar 2023 - heute</p>
-						</div>
+                            <div class="timeline-header">
+                                <h3>Wissenschaft&shy;licher Mitarbeiter</h3>
+                                <p>April 2011 - Dezember 2012</p>
+                            </div>
 
-						<div class="timeline-content">
-							<h4>ANDREAS STIHL AG & Co. KG</h4>
-							<p>
-								Mit meinem Wechsel zu STIHL ergriff ich die Möglichkeit, eine digitale Transformation direkt erleben und mitgestalten zu können. Zunächst übernahm ich als Product Owner ein Team des STIHL connected Flottenmanagements und integrierte einen autonomen Rasenmährobotor für B2B Kunden. Währenddessen unterstützte ich bereits das Programm des skalierten agilen Entwicklungsprozesses und wechselte schließlich vollständig in das Programmmanagement als Business Analyst. Tätigkeiten sind einerseits die frühphasige Anforderungsdefinition zum Aufbau der Entwicklungsroadmap in Zusammenarbeit mit dem Produktmanagement, andererseits die kontinuierliche Weiterentwicklung des Prozesses. 
-							</p>
-						</div>
+                            <div class="timeline-content">
+                                <h4>
+                                    TU Dresden, Fakultät Elektrotechnik und
+                                    Informationstechnik
+                                </h4>
+                                Nach Abschluss meines Studiums beschäftigte ich
+                                mich als wissenschaftlicher Mitarbeiter am
+                                Institut für Automatisierungstechnik u.&nbsp;a.
+                                mit der Ableitung eines Promotionsthemas aus
+                                meiner Diplomarbeit. Dabei wurden folgende Paper
+                                veröffentlicht:
+                                <ul id="papers">
+                                    <li>
+                                        <a
+                                            href="https://dl.gi.de/items/ea973294-4c15-4b8b-8bf7-d15ff00ec6ec"
+                                        >
+                                            Integration der domänenspezifischen
+                                            Sprache Movisa in den
+                                            nutzerzentrierten
+                                            Entwicklungsprozess der Useware</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://www.degruyter.com/document/doi/10.1524/icom.2011.0028/html"
+                                            >Modelltransformationen in
+                                            nutzer-zentrierten Entwurfsprozessen
+                                            der Automation</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://doi.org/10.1007/978-3-642-40477-1_7"
+                                        >
+                                            Conception of Ambiguous Mapping and
+                                            Transformation Models.</a
+                                        >
+                                    </li>
+                                </ul>
+                                Neben der Betreuung von Diplom- und
+                                Bachelor-Arbeiten, unterstützte ich die Lehre
+                                mit einer Vorlesungsreihe und Seminaren. Das
+                                Promotions&shy;thema wurde offiziell im Sommer
+                                2012 von der TU Dresden angenommen, jedoch
+                                entschied ich mich zu diesem Zeitpunkt bereits
+                                für die Gründung der MONKEY WORKS.
+                            </div>
+                        </div>
+                        <!-- /timeline-block -->
+                    </div>
+                    <!-- /timeline-wrap -->
+                </div>
+                <!-- /col-twelve -->
+            </div>
+            <!-- /resume-timeline -->
 
-					</div> <!-- /timeline-block -->
+            <div class="row resume-timeline">
+                <div class="col-twelve resume-header">
+                    <h2>Ausbildung</h2>
+                </div>
+                <!-- /resume-header -->
 
-					<div class="timeline-block">
+                <div class="col-twelve">
+                    <div class="timeline-wrap">
+                        <div class="timeline-block">
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
 
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
+                            <div class="timeline-header">
+                                <h3>Studium Elektrotechnik</h3>
+                                <p>Oktober 2005 - März 2011</p>
+                            </div>
 
-						<div class="timeline-header">
-							<h3>Digital Consultant</h3>
-							<p>November 2017 - Januar 2023</p>
-						</div>
+                            <div class="timeline-content">
+                                <h4>TU Dresden</h4>
+                                <p>
+                                    Studium der Elektrotechnik mit
+                                    Vertiefungsrichtung Automatisierungstechnik
+                                    als letzter Diplomstudiengang.
+                                    <br />Abschluss des Studiums mit der Note
+                                    2,3.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /timeline-block -->
 
-						<div class="timeline-content">
-							<h4>diconium digital solutions gmbh</h4>
-							<p>
-								Als Digital Consultant nahm ich in Projekten immer die Rolle ein, die benötigt wurde: Product Owner, Agile Coach, Business Analyst uvm. - immer als Bindeglied zwischen Business & Technik und mit dem klaren Auftrag, den Kunden erfolgreich zu machen.
-								<br/>
-								Intern arbeitete ich gemeinsam mit dem Account Management an der Weiterentwicklung und dem Ausbau unserer Kunden. Dabei nutzte ich die Erkenntnisse aus den Kundenprojekten, sodass zielgerichtete Angebote erstellt werden konnten. Auch bei der Neukundenakquise übernahm ich Verantwortung bei der Erstellung von Ausschreibungsunterlagen oder Neukunden-Pitches. Hier war ich für die Strukturierung sowie den Argumentationsaufbau der Unterlagen zuständig.
-							</p>
-						</div>
+                        <div class="timeline-block">
+                            <div class="timeline-ico">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
 
-					</div> <!-- /timeline-block -->
+                            <div class="timeline-header">
+                                <h3>Abitur</h3>
+                                <p>Mai 2004</p>
+                            </div>
 
-					<div class="timeline-block">
+                            <div class="timeline-content">
+                                <h4>Fachgymnasium Technik Stadthagen</h4>
+                                <p>
+                                    Allgemeine Hochschulreife mit der Note 1,7;
+                                    <br />
+                                    Leistungskurse: Informationstechnik &
+                                    Mathematik
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /timeline-block -->
+                    </div>
+                    <!-- /timeline-wrap -->
+                </div>
+                <!-- /col-twelve -->
+            </div>
+            <!-- /resume-timeline -->
+        </section>
+        <!-- /features -->
 
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>Co-Founder und Geshäftsführer Sales</h3>
-							<p>Januar 2013 - August 2017</p>
-						</div>
-
-						<div class="timeline-content">
-							<h4>MONKEY WORKS GmbH</h4>
-							<p>
-								Gemeinsam mit zwei Partnern gründete ich die <a href="https://www.crunchbase.com/organization/monkey-works-gmbh">MONKEY WORKS</a>,die auf einer Promotionsarbeit an der TU Dresden basierte. Mit unserem Software-Produkt ermöglichten wir die Software-Entwicklung, den Vertrieb sowie die Distribution von Apps für die mobile Steuerung und Wartung industrieller Maschinen und Anlagen. 
-								<br/> 
-								Als Geschäftsführer Sales war ich für die technische Beratung und den Vertrieb verantwortlich. MONKEY WORKS wurde mit Risikokapital gegründet und 2017 mit 15&nbsp;Mitarbeitern von einem chinesischen Investor übernommen.
-							</p>
-						</div>
-
-					</div> <!-- /timeline-block -->
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>Wissenschaft&shy;licher Mitarbeiter</h3>
-							<p>April 2011 - Dezember 2012</p>
-						</div>
-
-						<div class="timeline-content">
-							<h4>TU Dresden, Fakultät Elektrotechnik und Informationstechnik</h4>
-							Nach Abschluss meines Studiums beschäftigte ich mich als wissenschaftlicher Mitarbeiter am Institut für Automatisierungstechnik u.a. mit der Ableitung eines Promotionsthema aus meiner Diplomarbeit. Dabei wurden folgende Paper veröffentlicht:
-								<ul id="papers">
-									<li><a href="https://dl.gi.de/items/ea973294-4c15-4b8b-8bf7-d15ff00ec6ec">
-										Integration der domänenspezifischen Sprache Movisa in den nutzerzentrierten Entwicklungsprozess der Useware</a>
-									</li>
-									<li><a href="https://www.degruyter.com/document/doi/10.1524/icom.2011.0028/html">Modelltransformationen in nutzer-zentrierten Entwurfsprozessen der Automation</a></li>
-									<li><a href="https://doi.org/10.1007/978-3-642-40477-1_7"> Conception of Ambiguous Mapping and Transformation Models.</a>
-									</li>
-								</ul>
-								Neben der Betreuung von Diplom- und Bachelor-Arbeiten, unterstützte ich die Lehre mit einer Vorlesungsreihe und Seminaren. Das Promotions&shy;thema wurde offiziell im Sommer 2012 von der TU Dresden angenommen, jedoch entschied ich mich zu diesem Zeitpunkt bereits für die Gründung der MONKEY WORKS.
-						</div>
-
-					</div> <!-- /timeline-block -->
-
-				</div> <!-- /timeline-wrap -->
-
-			</div> <!-- /col-twelve -->
-
-		</div> <!-- /resume-timeline -->
-
-		<div class="row resume-timeline">
-
-			<div class="col-twelve resume-header">
-
-				<h2>Ausbildung</h2>
-
-			</div> <!-- /resume-header -->
-
-			<div class="col-twelve">
-
-				<div class="timeline-wrap">
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-graduation-cap"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>Studium Elektrotechnik</h3>
-							<p>Oktober 2005 - März 2011</p>
-						</div>
-
-						<div class="timeline-content">
-							<h4>TU Dresden</h4>
-							<p>
-								Studium der Elektrotechnik mit Vertiefungsrichtung Automatisierungstechnik als letzter
-								Diplomstudiengang. <br/>Abschluss des Studiums mit der Note 2,3.
-							</p>
-						</div>
-
-					</div> <!-- /timeline-block -->
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-graduation-cap"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>Abitur</h3>
-							<p>Mai 2004</p>
-						</div>
-
-						<div class="timeline-content">
-							<h4>Fachgymnasium Technik Stadthagen</h4>
-							<p>Allgemeine Hochschulreife mit der Note 1,7; 
-							<br /> Leistungskurse: Informationstechnik & Mathematik</p>
-						</div>
-
-					</div> <!-- /timeline-block -->
-
-				</div> <!-- /timeline-wrap -->
-
-			</div> <!-- /col-twelve -->
-
-		</div> <!-- /resume-timeline -->
-
-	</section> <!-- /features -->
-
-
-	<!-- Portfolio Section
+        <!-- Portfolio Section
    ================================================== -->
-	<section id="portfolio">
+        <section id="portfolio">
+            <div class="row section-intro">
+                <div class="col-twelve">
+                    <h5>Portfolio</h5>
+                    <h1>Einblick in meine Arbeitsergebnisse</h1>
 
-		<div class="row section-intro">
-			<div class="col-twelve">
+                    <p class="lead">
+                        Die folgenden Projekte zeigen einen Ausschnitt der
+                        Themen und Projekte, die ich in der Vergangenheit
+                        begleitet bzw. umgesetzt habe.
+                    </p>
+                </div>
+            </div>
+            <!-- /section-intro-->
 
-				<h5>Portfolio</h5>
-				<h1>Einblick in meine Arbeitsergebnisse</h1>
+            <div class="row portfolio-content">
+                <div class="col-twelve">
+                    <!-- portfolio-wrapper -->
+                    <div
+                        id="folio-wrapper"
+                        class="block-1-2 block-mob-full stack"
+                    >
+                        <div class="bgrid folio-item">
+                            <div class="item-wrap">
+                                <img
+                                    src="images/portfolio/strategy.jpeg"
+                                    alt="Schach ist das Sinnbild für strategisches Handeln und dient als Metapher für Strategieprojekte."
+                                />
+                                <a href="#strategie-projekt" class="overlay">
+                                    <div class="folio-item-table">
+                                        <div class="folio-item-cell">
+                                            <h3 class="folio-title">
+                                                Strategie Projekt für E-Commerce
+                                                Erneuerung
+                                            </h3>
+                                            <span class="folio-types">
+                                                Kundenpitches
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                id="strategie-projekt"
+                                class="folio-item-details collapsed"
+                            >
+                                <h4>
+                                    Strategie Projekt für E-Commerce Erneuerung
+                                </h4>
+                                <p>
+                                    Für einen Mittelstandskunden der
+                                    Fertigungstechnik wurde ein umfassendes
+                                    Strategie-Projekt angefragt. Zu diesem
+                                    Zeitpunkt hatte der Kunde bereits erste
+                                    E-Commerce Lösungen für seine verschiedenen
+                                    Zielgruppen auf dem Markt, jedoch fehlte es
+                                    an einer Strategie für die Weiterentwicklung
+                                    der nächsten Jahre. <br />
+                                    Die Ausarbeitung des Pitches zur Gewinnung
+                                    des Projektes übernahm ich mit Unterstützung
+                                    der verschiedenen Gewerke (UX, Tech und
+                                    Strategie). Meine Aufgabe lag in der
+                                    Koordination der Disziplinen, der
+                                    Ausarbeitung der Argumentationslinie sowie
+                                    der Kommunikation mit der Kunden.<br />
+                                    Nach dem erfolgreichen Pitch wurden wir mit
+                                    der Umsetzung des Strategie-Projektes
+                                    betraut. Als Ergebnis stand nach ca. vier
+                                    Monaten eine E-Commerce Strategie, die sich
+                                    in die Digital Strategie des Unternehmens
+                                    eingliederte sowie ein vorbereiteter
+                                    "actionable" Feature Backlog zur Umsetzung.
+                                </p>
 
-				<p class="lead">
-					Die folgenden Projekte zeigen einen Ausschnitt der Themen und Projekte, die ich in der Vergangenheit begleitet bzw. umgesetzt habe.
-				</p>
+                                <div class="categories">
+                                    2022 - Kundenpitches
+                                </div>
+                            </div>
+                            <!-- /strategie-projekt -->
+                        </div>
+                        <!-- /folio-item -->
 
-			</div>
-		</div> <!-- /section-intro-->
+                        <div class="bgrid folio-item">
+                            <div class="item-wrap">
+                                <img
+                                    src="images/portfolio/developer.jpeg"
+                                    alt="Developer"
+                                />
+                                <a href="#scaled-agile" class="overlay">
+                                    <div class="folio-item-table">
+                                        <div class="folio-item-cell">
+                                            <h3 class="folio-title">
+                                                Skalierter, agiler
+                                                Entwicklungsprozess
+                                            </h3>
+                                            <span class="folio-types"
+                                                >Kundenprojekt</span
+                                            >
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                id="scaled-agile"
+                                class="folio-item-details collapsed"
+                            >
+                                <h4>Skalierter, agiler Entwicklungsprozess</h4>
+                                <p>
+                                    Für einen Weltmarktführer im Maschinenbau
+                                    wurde ein neuer Fachbereich mit dem Auftrag
+                                    zur Umsetzung einer Software-Lösungen im
+                                    B2B-Bereich. Als Dienstleister begleitet ich
+                                    die Transformation des Kunden von
+                                    klassischer Projekt&shy;durch&shy;führung
+                                    mit Dienstleistersteuerung zu einem eigenen
+                                    agilen Entwicklungsprozess.<br />
+                                    Neben dem Aufbau von acht cross-funktionalen
+                                    Teams, der Umsetzung des Anforderung-Funnels
+                                    sowie der Umgestaltung der Budgetierung, war
+                                    die Integration der Hardware-Entwicklung die
+                                    größte und spannendste Herausforderung. Im
+                                    Verlauf des Projektes durfte ich den Aufbau
+                                    zweier Teams als Product Owner und als Scrum
+                                    Master unterstützen, die
+                                    Anforderungsdefinition als Business Analyst
+                                    begleiten und die Prozessgestaltung sowie
+                                    -weiterentwicklung in der Rolle als Agile
+                                    Coach übernehmen.
+                                </p>
 
-		<div class="row portfolio-content">
+                                <div class="categories">
+                                    2020 - 2023 Kundenprojekt
+                                </div>
+                            </div>
+                            <!-- /scaled-agile-details -->
+                        </div>
+                        <!-- /folio-item -->
 
-			<div class="col-twelve">
+                        <div class="bgrid folio-item">
+                            <div class="item-wrap">
+                                <img
+                                    src="images/portfolio/payment.jpeg"
+                                    alt="payment"
+                                />
+                                <a href="#payment-provider" class="overlay">
+                                    <div class="folio-item-table">
+                                        <div class="folio-item-cell">
+                                            <h3 class="folio-title">
+                                                Payment für digitale Produkte
+                                            </h3>
+                                            <span class="folio-types">
+                                                Kundenprojekt
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                id="payment-provider"
+                                class="folio-item-details collapsed"
+                            >
+                                <h4>Payment für digitale Produkte</h4>
+                                <p>
+                                    Für eine starke Marke im Maschinenbaus aus
+                                    dem süddeutschen Raum war mein Auftrag die
+                                    Gestaltung und Auswahl einer Payment-Lösung
+                                    für digitale Produkte. In enger Abstimmung
+                                    mit dem Kunden haben wir gemeinsam
+                                    Anforderungen erhoben (u.&nbsp;a.
+                                    durchgängiges Branding des Kunden und
+                                    In-Context Payment innerhalb der
+                                    Software-Anwendung). Basierend auf den
+                                    Anforderungen wurden Anbieter evaluiert und
+                                    Proof-of-Concepts durchgeführt. Die
+                                    Erkenntnisse (Vor- und Nachteile der
+                                    Anbieter, Preismodelle sowie rechtliche
+                                    Bedingungen) wurden in einer
+                                    Entscheidungs&shy;vorlage für das Management
+                                    zusammengefasst. <br />
+                                    Die empfohlene Lösung wurde durch das
+                                    Management bestätigt und ich wurde mit einem
+                                    Team mit einem vollständigen
+                                    Ende-zu-Ende-Test (echte Transaktionen
+                                    innerhalb des Touchpoints mit Verbuchung im
+                                    ERP-System und Rechnungsstellung)
+                                    beauftragt.
+                                </p>
 
-				<!-- portfolio-wrapper -->
-				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+                                <div class="categories">
+                                    2021 - Kundenprojekt
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /folio-item -->
 
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/strategy.jpeg" alt="strategy">
-							<a href="#strategie-projekt" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Strategie Projekt für E-Commerce Erneuerung</h3>
-										<span class="folio-types">
-											Kundenpitches
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div id="strategie-projekt" class="folio-item-details collapsed">
-							<h4>Strategie Projekt für E-Commerce Erneuerung</h4>
-							<p>Für einen Mittelstandskunden der Fertigungstechnik wurde ein umfassendes Strategie-Projekt angefragt. Zu diesem Zeitpunkt hatte der Kunde bereits erste E-Commerce Lösungen für seine verschiedenen Zielgruppen auf dem Markt, jedoch fehlte es an einer Strategie für die Weiterentwicklung der nächsten Jahre. <br/>
-							Die Ausarbeitung des Pitches zur Gewinnung des Projektes übernahm ich mit Unterstützung der verschiedenen Gewerke (UX, Tech und Strategie). Meine Aufgabe lag in der Koordination der Disziplinen, der Ausarbeitung der Argumentationslinie sowie der Kommunikation mit der Kunden.<br/>
-							Nach dem erfolgreichen Pitch wurden wir mit der Umsetzung des Strategie-Projektes betraut. Als Ergebnis stand nach ca. vier Monaten eine E-Commerce Strategie, die sich in die Digital Strategie des Unternehmens eingliederte sowie ein vorbereiteter "actionable" Feature Backlog zur Umsetzung.
-							</p>
+                        <div class="bgrid folio-item">
+                            <div class="item-wrap">
+                                <div class="zoom-img-wrapper">
+                                    <img
+                                        src="images/portfolio/process-industry.jpeg"
+                                        alt="Process Industry"
+                                    />
+                                </div>
+                                <a href="#monkey-works" class="overlay">
+                                    <div class="folio-item-table">
+                                        <div class="folio-item-cell">
+                                            <h3 class="folio-title">
+                                                Startup MONKEY WORKS
+                                            </h3>
+                                            <span class="folio-types">
+                                                Unternehmensgründung
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                id="monkey-works"
+                                class="folio-item-details collapsed"
+                            >
+                                Bereits während des Studiums unterstütze ich als
+                                studentische Hilfskraft sowie mit meiner
+                                Diplomarbeit eine wissenschaftliche Arbeit, die
+                                2012 als Dissertation eingereicht und
+                                erfolgreich verteidigt wurde. Basierend auf der
+                                Arbeit gründete ich mit zwei Partnern die MONKEY
+                                WORKS GmbH. Das Startup wurde zunächst mit
+                                Förderprogrammen finanziert und wurde
+                                schließlich durch Risikokapital in die Seedphase
+                                überführt. Durch Kundenprojekte in China konnte
+                                ein Industrie-Partner als weiterer Investor
+                                akquiriert werden. Dieser Investor übernahm 2018
+                                große Teile (IP und Mitarbeiter) der MONKEY
+                                WORKS. <br />
+                                Als einer von drei Gründern teilten wir uns die
+                                Geschäftsführung. Ich übernahm den Vertrieb
+                                unserer Software, mit der Anlagen- und
+                                Maschinenbauer in die Lage versetzt wurden
+                                individuelle Apps für die Steuerung und
+                                Beobachtung industrieller Anlagen zu erstellen
+                                &ndash; ohne dabei auf Software-Entwicklung
+                                angewiesen zu sein. Mit unserem
+                                Software-Werkzeug setzten wir zunächst
+                                Kundenprojekte um, in denen wir die Vorzüge
+                                unserer Software demonstrierten. Mit den
+                                gesammelten Erfahrungen entwickelten wir die
+                                Software und das Geschäftsmodell der MONKEY
+                                WORKS kontinuierlich weiter.
+                                <div class="categories">
+                                    2012-2018 - Unternehmensgründung
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /folio-item -->
 
-							<div class="categories">2022 - Kundenpitches</div>
-						</div> <!-- /strategie-projekt -->
-					</div> <!-- /folio-item -->
+                        <div class="bgrid folio-item">
+                            <div class="item-wrap">
+                                <img
+                                    src="images/portfolio/lighthouse.jpg"
+                                    alt="Der Leuchtturm als Metapher für Strategien zur Orientierung im Business."
+                                />
+                                <a href="#programmanagement" class="overlay">
+                                    <div class="folio-item-table">
+                                        <div class="folio-item-cell">
+                                            <h3 class="folio-title">
+                                                Strategische Kundenentwicklung &
+                                                Programmmanagement
+                                            </h3>
+                                            <span class="folio-types">
+                                                Account Management
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                id="programmanagement"
+                                class="folio-item-details collapsed"
+                            >
+                                stay tuned ⏳
+                            </div>
+                        </div>
+                        <!-- /folio-item -->
+                        <div class="bgrid folio-item">
+                            <div class="item-wrap">
+                                <img
+                                    src="images/portfolio/post-its.jpg"
+                                    alt="Post-its im Büro"
+                                />
+                                <a href="#productowner" class="overlay">
+                                    <div class="folio-item-table">
+                                        <div class="folio-item-cell">
+                                            <h3 class="folio-title">
+                                                B2B Flottenmanagement für
+                                                Werkzeuge & Maschinen
+                                            </h3>
+                                            <span class="folio-types">
+                                                Product Owner
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                id="productowner"
+                                class="folio-item-details collapsed"
+                            >
+                                stay tuned ⏳
+                            </div>
+                        </div>
+                        <!-- /folio-item -->
+                    </div>
+                    <!-- /portfolio-wrapper -->
+                </div>
+                <!-- /twelve -->
+            </div>
+            <!-- /portfolio-content -->
+        </section>
+        <!-- /portfolio -->
 
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/developer.jpeg" alt="Developer">
-							<a href="#scaled-agile" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Skalierter, agiler Entwicklungsprozess</h3>
-										<span class="folio-types">Kundenprojekt</span>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div id="scaled-agile" class="folio-item-details collapsed">
-							<h4>Skalierter, agiler Entwicklungsprozess</h4>
-							<p>Für einen Weltmarktführer im Maschinenbau wurde ein neuer Fachbereich mit dem Auftrag zur Umsetzung einer Software-Lösungen im B2B-Bereich. Als Dienstleister begleitet ich die Transformation des Kunden von klassischer Projekt&shy;durch&shy;führung mit Dienstleistersteuerung zu einem eigenen agilen Entwicklungsprozess.<br/>
-							Neben dem Aufbau von acht cross-funktionalen Teams, der Umsetzung des Anforderung-Funnels sowie der Umgestaltung der Budgetierung, war die Integration der Hardware-Entwicklung die größte und spannendste Herausforderung. Im Verlauf des Projektes durfte ich den Aufbau zweier Teams als Product Owner und als Scrum Master unterstützen, die Anforderungsdefinition als Business Analyst begleiten und die Prozessgestaltung sowie -weiterentwicklung in der Rolle als Agile Coach übernehmen.
-							</p>
-
-							<div class="categories">2020 - 2023 Kundenprojekt</div>
-						</div> <!-- /scaled-agile-details -->
-					</div> <!-- /folio-item -->
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/payment.jpeg" alt="payment">
-							<a href="#payment-provider" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Payment für digitale Produkte</h3>
-										<span class="folio-types">
-											Kundenprojekt
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div id="payment-provider" class="folio-item-details collapsed">
-							<h4>Payment für digitale Produkte</h4>
-							<p>Für eine starke Marke im Maschinenbaus aus dem süddeutschen Raum war mein Auftrag die Gestaltung und Auswahl einer Payment-Lösung für digitale Produkte. In enger Abstimmung mit dem Kunden haben wir gemeinsam Anforderungen erhoben (u.a. durchgängiges Branding des Kunden und In-Context Payment innerhalb der Software-Anwendung). Basierend auf den Anforderungen wurden Anbieter evaluiert und Proof-of-Concepts durchgeführt. Die Erkenntnisse (Vor- und Nachteile der Anbieter, Preismodelle sowie rechtliche Bedingungen) wurden in einer Entscheidungs&shy;vorlage für das Management zusammengefasst. <br/>
-							Die empfohlene Lösung wurde durch das Management bestätigt und ich wurde mit einem Team mit einem vollständigen Ende-zu-Ende-Test (echte Transaktionen innerhalb des Touchpoints mit Verbuchung im ERP-System und Rechnungsstellung) beauftragt.
-							</p>
-
-							<div class="categories">2021 - Kundenprojekt</div>
-						</div>
-
-					</div> <!-- /folio-item -->
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<div class="zoom-img-wrapper">
-								<img src="images/portfolio/process-industry.jpeg" alt="Process Industry">
-							</div>
-							<a href="#monkey-works" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Startup MONKEY WORKS</h3>
-										<span class="folio-types">
-											Unternehmensgründung
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div id="monkey-works" class="folio-item-details collapsed">
-							Bereits während des Studium unterstütze ich als studentische Hilfskraft sowie mit meiner Diplomarbeit eine wissenschaftliche Arbeit, die 2012 als Dissertation eingereicht und erfolgreich verteidigt wurde. Basierend auf der Arbeit gründete ich mit zwei Partnern die MONKEY WORKS GmbH. Das Startup wurde zunächst mit Förderprogrammen finanziert und wurde schließlich durch Risikokapital in die Seedphase überführt. Durch Kundenprojekte in China konnte ein Industrie-Partner als weiterer Investor akquiriert werden. Dieser Investor übernahm 2018 große Teile (IP und Mitarbeiter) der MONKEY WORKS. <br/>
-							Als einer von drei Gründern teilten wir uns die Geschäftsführung. Ich übernahm den Vertrieb unserer Software, mit der Anlagen- und Maschinenbauer in die Lage versetzt wurden individuelle Apps für die Steuerung und Beobachtung industrieller Anlagen zu erstellen &ndash; ohne dabei auf Software-Entwicklung angewiesen zu sein. Mit unserem Software-Werkzeug setzten wir zunächst Kundenprojekte um, in denen wir die Vorzüge unseres Software demonstrierten. Mit den gesammelten Erfahrungen entwickelten wir die Software und das Geschäftsmodell der MONKEY WORKS kontinuierlich weiter.
-							<div class="categories">2012-2018 - Unternehmensgründung</div>
-						</div>
-					</div> <!-- /folio-item -->
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
-							<a href="#programmanagement" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Strategische Kundenentwicklung & Programmmanagement</h3>
-										<span class="folio-types">
-											Account Management
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div id="programmanagement" class="folio-item-details collapsed">
-							stay tuned ⏳
-						</div>
-					</div> <!-- /folio-item -->
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/post-its.jpg" alt="Post-its im Büro">
-							<a href="#productowner" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">B2B Flottenmanagement für Werkzeuge & Maschinen</h3>
-										<span class="folio-types">
-											Product Owner
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div id="productowner" class="folio-item-details collapsed">
-							stay tuned ⏳
-						</div>
-					</div> <!-- /folio-item -->		
-
-				</div> <!-- /portfolio-wrapper -->
-
-			</div> <!-- /twelve -->
-
-		</div> <!-- /portfolio-content -->
-
-	</section> <!-- /portfolio -->
-
-
-	<!-- services Section
+        <!-- services Section
    ================================================== -->
-	<section id="services">
+        <section id="services">
+            <div class="overlay"></div>
 
-		<div class="overlay"></div>
+            <div class="row section-intro">
+                <div class="col-twelve">
+                    <h5>Zusammenarbeit</h5>
+                    <h1>Meine Schwerpunkte</h1>
 
-		<div class="row section-intro">
-			<div class="col-twelve">
+                    <p class="lead">
+                        Ich brenne für digitale Themen und möchte immer weiter
+                        lernen durch spannende Herausforderungen
+                    </p>
+                </div>
+            </div>
+            <!-- /section-intro -->
 
-				<h5>Zusammenarbeit</h5>
-				<h1>Meine Schwerpunkte</h1>
+            <div class="row services-content">
+                <div id="owl-slider" class="owl-carousel services-list">
+                    <div class="service">
+                        <span class="icon"><i class="icon-earth"></i></span>
 
-				<p class="lead">Ich brenne für digitale Themen und möchte immer weiter lernen durch spannende Herausforderungen</p>
+                        <div class="service-content">
+                            <h3>Digitale Geschäftsmodelle</h3>
 
-			</div>
-		</div> <!-- /section-intro -->
+                            <p class="desc">
+                                Entwicklung und kritische Betrachtung von Ideen,
+                                Begleitung der Umsetzung digitaler
+                                Geschäftsmodelle.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- /service -->
 
-		<div class="row services-content">
+                    <div class="service">
+                        <span class="icon"><i class="icon-window"></i></span>
 
-			<div id="owl-slider" class="owl-carousel services-list">
+                        <div class="service-content">
+                            <h3>Produkt&shy;entwicklung</h3>
 
-				<div class="service">
+                            <p class="desc">
+                                Design digitaler Produkte und Services, Aufbau
+                                und Betreuung von agilen Produktteams, Ownership
+                                für die Produktentwicklung
+                            </p>
+                        </div>
+                    </div>
+                    <!-- /service -->
 
-					<span class="icon"><i class="icon-earth"></i></span>
+                    <div class="service">
+                        <span class="icon"><i class="icon-chat"></i></span>
 
-					<div class="service-content">
+                        <div class="service-content">
+                            <h3>Beratung</h3>
 
-						<h3>Digitale Geschäftsmodelle</h3>
+                            <p class="desc">
+                                Sparringspartner bei Fragestellungen zur
+                                Digitalisierung - pragmatisch und
+                                umsetzungsbezogen.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- /service -->
+                </div>
+                <!-- /services-list -->
+            </div>
+            <!-- /services-content -->
+        </section>
+        <!-- /services -->
 
-						<p class="desc">Entwicklung und kritische Betrachtung von Ideen, Begleitung der Umsetzung digitaler Geschäftsmodelle.
-						</p>
-
-					</div>
-
-				</div> <!-- /service -->
-
-				<div class="service">
-
-					<span class="icon"><i class="icon-window"></i></span>
-
-					<div class="service-content">
-
-						<h3>Produkt&shy;entwicklung</h3>
-
-						<p class="desc">Design digitaler Produkte und Services, Aufbau und Betreuung von agilen	Produktteams, Ownership für die Produktentwicklung
-						</p>
-
-					</div>
-
-				</div> <!-- /service -->
-
-				<div class="service">
-
-					<span class="icon"><i class="icon-chat"></i></span>
-
-					<div class="service-content">
-
-						<h3>Beratung</h3>
-
-						<p class="desc">Sparringspartner bei Fragestellungen zur Digitalisierung - pragmatisch und umsetzungsbezogen.
-						</p>
-
-					</div>
-
-				</div> <!-- /service -->
-
-			</div> <!-- /services-list -->
-
-			
-
-		</div> <!-- /services-content -->
-
-	</section> <!-- /services -->
-
-	<!-- contact
+        <!-- contact
    ================================================== -->
-	<section id="contact">
-		<div class="row section-intro">
-			<div class="col-twelve">
+        <section id="contact">
+            <div class="row section-intro">
+                <div class="col-twelve">
+                    <h5>Kontakt</h5>
+                    <h1>Kommen wir ins Gespräch</h1>
 
-				<h5>Kontakt</h5>
-				<h1>Kommen wir ins Gespräch</h1>
+                    <p class="lead">
+                        Interesse an fachlichem Austausch oder Zusammenarbeit?
+                    </p>
+                </div>
+            </div>
+            <!-- /section-intro -->
 
-				<p class="lead">Interesse an fachlichem Austausch oder Zusammenarbeit?</p>
+            <div class="row contact-info">
+                <div class="col-four tab-full">
+                    <div class="icon">
+                        <i class="icon-mail"></i>
+                    </div>
+                    <h5>Email an mich</h5>
+                    <p>
+                        <a href="mailto:henning@kuch.email"
+                            >henning@kuch.email</a
+                        >
+                    </p>
+                </div>
 
-			</div>
-		</div> <!-- /section-intro -->
+                <div class="col-four tab-full">
+                    <div class="icon">
+                        <i class="fa-brands fa-mastodon"></i>
+                    </div>
+                    <h5>Post an mich</h5>
+                    <p>
+                        <a href="mailto:henning@kuch.email"
+                            >henning@kuch.email</a
+                        >
+                    </p>
+                </div>
 
-		<div class="row contact-info">
+                <div class="col-four tab-full">
+                    <div class="icon">
+                        <i class="icon-chat"></i>
+                    </div>
+                    <h5>Chat mit mir</h5>
+                    <p>
+                        <a href="https://www.linkedin.com/in/henning-kuch/"
+                            >LinkedIn</a
+                        >
+                    </p>
+                </div>
+            </div>
+            <!-- /contact-info -->
+        </section>
+        <!-- /contact -->
 
-			<div class="col-four tab-full">
-				<div class="icon">
-					<i class="icon-mail"></i>
-				</div>
-				<h5>Email an mich</h5>
-				<p><a href="mailto:henning@kuch.email">henning@kuch.email</a></p>
-			</div>
-
-			<div class="col-four tab-full">
-				<div class="icon">
-					<i class="fa-brands fa-mastodon"></i>
-				</div>
-				<h5>Post an mich</h5>
-				<p><a href="mailto:henning@kuch.email">henning@kuch.email</a></p>
-			</div>
-
-			<div class="col-four tab-full">
-				<div class="icon">
-					<i class="icon-chat"></i>
-				</div>
-				<h5>Chat mit mir</h5>
-				<p><a href="https://www.linkedin.com/in/henning-kuch/">LinkedIn</a></p>
-			</div>
-
-
-
-		</div> <!-- /contact-info -->
-
-	</section> <!-- /contact -->
-	
-	<!-- footer
+        <!-- footer
    ================================================== -->
 
-	<footer>
-		<div class="row" id="copyright">
-			<div class="col-twelve tab-full">
-				<div >
-					<span>Design von <a href="http://www.styleshout.com/">styleshout</a></span>					
-				</div>
-				Bilderquellen von  Unsplash:
-					<ul id="images">
-						<li> 
-							<a	href="https://unsplash.com/@vdphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">VD
-								Photography</a> 
-						</li>
-						<li><a href="https://unsplash.com/s/photos/chess?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>			
-						</li>
-						<li>
-							 <a	href="https://unsplash.com/@frantic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Kotliarskyi</a> 
-						</li>
-						<li>
-							 <a	href="https://unsplash.com/@cardmapr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">CardMapr.nl</a>
-						</li>
-						<li>
-							 <a	href="https://unsplash.com/@spacexuan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Crystal Kwok</a>
-						</li>
-						<li>
-							<a href="https://unsplash.com/de/@irfansimsar?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">İrfan Simsar</a>
-  
-						</li>
-					</ul>
-			</div>
+        <footer>
+            <div class="row" id="copyright">
+                <div class="col-twelve tab-full">
+                    <div>
+                        <span
+                            >Design von
+                            <a href="http://www.styleshout.com/"
+                                >styleshout</a
+                            ></span
+                        >
+                    </div>
+                    Bilderquellen von Unsplash:
+                    <ul id="images">
+                        <li>
+                            <a
+                                href="https://unsplash.com/@vdphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                >VD Photography</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://unsplash.com/s/photos/chess?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                >Unsplash</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://unsplash.com/@frantic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                >Alex Kotliarskyi</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://unsplash.com/@cardmapr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                >CardMapr.nl</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://unsplash.com/@spacexuan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                                >Crystal Kwok</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://unsplash.com/de/@irfansimsar?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+                                >İrfan Simsar</a
+                            >
+                        </li>
+                    </ul>
+                </div>
 
-			<div id="go-top">
-				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-			</div>
+                <div id="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"
+                        ><i class="fa fa-long-arrow-up"></i
+                    ></a>
+                </div>
+            </div>
+            <!-- /row -->
+        </footer>
 
-		</div> <!-- /row -->
-	</footer>
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
 
-	<div id="preloader">
-		<div id="loader"></div>
-	</div>
-
-	<!-- Java Script
+        <!-- Java Script
    ================================================== -->
-	<script src="js/jquery-2.1.3.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
-	<script src="https://kit.fontawesome.com/86e6766965.js" crossorigin="anonymous"></script>
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script
+            src="https://kit.fontawesome.com/86e6766965.js"
+            crossorigin="anonymous"
+        ></script>
 
-	<script>
-		!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-		posthog.init('phc_ULF5mw2cUYeTk6DblLY1bPwkwxz6DtBQJ5whJuoWFUI', {
-			api_host:'https://eu.i.posthog.com',
-			persistence: 'localStorage',
-			person_profiles: 'identified_only' // or 'always' to create profiles for anonymous users as well
-		})
-	</script>
-
-</body>
-
+        <script>
+            !(function (t, e) {
+                var o, n, p, r;
+                e.__SV ||
+                    ((window.posthog = e),
+                    (e._i = []),
+                    (e.init = function (i, s, a) {
+                        function g(t, e) {
+                            var o = e.split(".");
+                            (2 == o.length && ((t = t[o[0]]), (e = o[1])),
+                                (t[e] = function () {
+                                    t.push(
+                                        [e].concat(
+                                            Array.prototype.slice.call(
+                                                arguments,
+                                                0,
+                                            ),
+                                        ),
+                                    );
+                                }));
+                        }
+                        (((p = t.createElement("script")).type =
+                            "text/javascript"),
+                            (p.crossOrigin = "anonymous"),
+                            (p.async = !0),
+                            (p.src =
+                                s.api_host.replace(
+                                    ".i.posthog.com",
+                                    "-assets.i.posthog.com",
+                                ) + "/static/array.js"),
+                            (r =
+                                t.getElementsByTagName(
+                                    "script",
+                                )[0]).parentNode.insertBefore(p, r));
+                        var u = e;
+                        for (
+                            void 0 !== a ? (u = e[a] = []) : (a = "posthog"),
+                                u.people = u.people || [],
+                                u.toString = function (t) {
+                                    var e = "posthog";
+                                    return (
+                                        "posthog" !== a && (e += "." + a),
+                                        t || (e += " (stub)"),
+                                        e
+                                    );
+                                },
+                                u.people.toString = function () {
+                                    return u.toString(1) + ".people (stub)";
+                                },
+                                o =
+                                    "init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug getPageViewId".split(
+                                        " ",
+                                    ),
+                                n = 0;
+                            n < o.length;
+                            n++
+                        )
+                            g(u, o[n]);
+                        e._i.push([i, s, a]);
+                    }),
+                    (e.__SV = 1));
+            })(document, window.posthog || []);
+            posthog.init("phc_ULF5mw2cUYeTk6DblLY1bPwkwxz6DtBQJ5whJuoWFUI", {
+                api_host: "https://eu.i.posthog.com",
+                persistence: "localStorage",
+                person_profiles: "identified_only", // or 'always' to create profiles for anonymous users as well
+            });
+        </script>
+    </body>
 </html>
