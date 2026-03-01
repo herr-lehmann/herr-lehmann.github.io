@@ -2539,6 +2539,15 @@ header .logo p {
     color: #ff0077;
 }
 
+.contact-info a,
+.contact-info a:visited {
+    color: #ffffff;
+}
+
+.contact-info a:hover {
+    color: #ff0077;
+}
+
 /**
  * loader animation - (_layout.scss)
  * ---------------------------------------------------------------
